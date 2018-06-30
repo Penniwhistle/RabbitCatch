@@ -115,6 +115,10 @@ void loop() {
       scene = 1;
       sound.tone(500, 100, 1000, 100);
       counter = 2000;
+      lexipx = rand() % 113;
+      lexipy = rand() % 41 + 8;
+      playerx = rand() % 113;
+      playery = rand() % 41 + 8;
     }
   }
 
@@ -192,5 +196,4 @@ void loop() {
 
   }
 }
-
 
